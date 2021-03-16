@@ -23,7 +23,7 @@ public class ThreadCompra extends Thread {
 
 	private void logSis() {
 		// TODO Auto-generated method stub
-		ingressos=gerador.nextInt(3)+1;
+		ingressos=gerador.nextInt(4)+1;
 		tempo = (int) ((Math.random() * 1951) + 50);
 		try {
 			sleep(tempo);
